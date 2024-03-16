@@ -19,10 +19,10 @@
     "Posts.Comments.Likes.Api": {
       "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "https://localhost:61727;http://localhost:18042",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "https://localhost:61727;http://localhost:18042"
+      }
     }
   }
 }

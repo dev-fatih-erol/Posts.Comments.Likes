@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  posts.comments.likes.api:
+    image: ${DOCKER_REGISTRY-}postscommentslikes
+    build:
+      context: .
+      dockerfile: Posts.Comments.Likes.Api/Dockerfile
